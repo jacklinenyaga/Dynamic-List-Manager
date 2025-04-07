@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+  background-color: white;
+  height: 400px;
+  box-shadow: 10px 10px 15px 5px rgb(139, 138, 138);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: turquoise;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.input-field {
+  margin: 20px;
+  display: flex;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid turquoise;
+}
+
+.btn {
+  background-color: rgb(8, 206, 241);
+  color: white;
+  border: 1px solid turquoise;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color: rgb(63, 241, 8);
+  color: white;
+}
+
+.listWrapper {
+  background-color: rgb(190, 247, 247);
+  border: 1px solid rgb(5, 252, 227);
+  margin: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  min-height: 150px;
+}
